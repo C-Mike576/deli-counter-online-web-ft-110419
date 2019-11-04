@@ -11,5 +11,5 @@ def line(line)
       end
     end
   end
-  new_line
+ p new_line
 end
