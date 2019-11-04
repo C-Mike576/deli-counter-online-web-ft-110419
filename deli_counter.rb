@@ -4,7 +4,8 @@ def line(line)
   if line.empty?
     puts "The line is currently empty."
   else
+    
     line.each_with_index do |person, index|
-    new_line << "The line is currently"
+    
   end
 end
