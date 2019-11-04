@@ -10,7 +10,7 @@ def line(line)
     end
   end
   new_line
-  #puts new_line
+  puts new_line
 end
 
 def take_a_number(line, person)
