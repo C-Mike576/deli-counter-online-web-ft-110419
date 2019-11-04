@@ -17,3 +17,9 @@ def take_a_number(line, person)
   line << person
   puts "Welcome, #{person}. You are number #{line.index(person)+1} in line."
 end
+
+def now_serving(line)
+  if line.length == 0
+    puts "nobody in line"
+  end
+end
