@@ -9,5 +9,8 @@ def line(line)
       new_line << " #{index+1}. #{person}"
     end
   end
+  new_line
   puts new_line
 end
+
+def take_a_number(line, person)
