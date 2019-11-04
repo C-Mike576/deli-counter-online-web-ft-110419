@@ -14,3 +14,4 @@ def line(line)
 end
 
 def take_a_number(line, person)
+end
