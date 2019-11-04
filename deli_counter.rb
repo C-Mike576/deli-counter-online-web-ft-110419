@@ -2,7 +2,7 @@
 def line(line)
   new_line = ""
   if line.empty?
-    return "The line is currently empty."
+    puts "The line is currently empty."
   else
     new_line << "The line is currently:"
     line.each_with_index do |person, index|
