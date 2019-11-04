@@ -9,5 +9,5 @@ def line(line)
       new_line << "#{index+1}. #{person} "
     end
   end
- puts new_line
+ p new_line
 end
