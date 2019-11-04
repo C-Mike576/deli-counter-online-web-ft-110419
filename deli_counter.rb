@@ -15,5 +15,5 @@ end
 
 def take_a_number(line, person)
   line << person
-  puts "Welcome, #{person}. You are number"
+  puts "Welcome, #{person}. You are number #{line[person]+1} in line."
 end
