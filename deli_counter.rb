@@ -6,9 +6,7 @@ def line(line)
   else
     new_line << "The line is currently: "
     line.each_with_index do |person, index|
-      new_line << "#{index+1}. #{person} " unless person == line[-1] do
-        new_line << "#{index+1}. #{person}"
-      end
+      new_line << "#{index+1}. #{person} "
     end
   end
  p new_line
